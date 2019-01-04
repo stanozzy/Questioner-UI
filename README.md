@@ -13,6 +13,7 @@ meetup organizer(s) to prioritize questions most users are interested in.
 6. Users can post comments to a specific question.
 
 #Optional Features:
+--------------------
 1. Admin can add images to a meetup record.
 2. Admin can add tags to a meetup record.
 3. User can reset password.
