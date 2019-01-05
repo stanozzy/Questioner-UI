@@ -1,6 +1,6 @@
 #logo{
     font-family: 'Righteous', cursive;
-    color: #FFD993;
+    color: #7ee251;
     font-size: 168%;
     float: left;
 }
@@ -38,6 +38,7 @@ body{
     padding-left: 1.25%;
     position: relative;
     margin: 0 auto;
+    text-align: center;
 }
 
 .bar-item{
@@ -100,4 +101,70 @@ a :hover, a:active{
 }
 .home-buttons a:hover, a:active{
     text-decoration: underline;
+}
+
+.form-container{
+    width: 80%;
+    padding: 4% 0 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.form input{
+    font-family: 'Ubuntu Condensed', sans-serif;  
+    outline: 1;
+    background: #f2f2f2;
+    width: 75%;
+    max-width: 600px;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 17px;    
+}
+.form button{
+    font-family: 'Ubuntu Condensed', sans-serif; 
+    font-size: 17px;
+    text-transform: uppercase;
+    outline: 0;
+    background: #FFD993;
+    color: brown;
+    width: 75%;
+    max-width: 600px;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    
+}
+.form button:active, .form button:hover{
+    background-color: #f5b43d;
+}
+#btn{
+    background-color: #FFD993;
+    font-family: 'Ubuntu Condensed', sans-serif; 
+    font-size: 17px;
+    text-transform: uppercase;
+    color: blueviolet;
+    outline: 0;
+    width: 75%;
+    border: 0;
+    padding: 15px;
+    cursor: pointer;
+    margin-bottom: 15px;    
+}
+#btn:hover, #btn:active{
+    background-color: #f5b43d;
+}
+.msg{
+    margin: 0 auto;
+}
+.msg a{
+    color: #7ee251
+}
+.title{
+   font-size: 23px;
+}
+.lg{
+  font-family: 'Righteous', cursive;
+    color: #7ee251;
 }
