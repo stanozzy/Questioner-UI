@@ -50,6 +50,7 @@ body{
 }
 .bar-item a{
     color: #FFD993;
+    margin-right: 5px;
 }
 .bar-item a:hover, .bar-item a:active{
     text-decoration: underline;
@@ -167,4 +168,62 @@ a :hover, a:active{
 .lg{
   font-family: 'Righteous', cursive;
     color: #7ee251;
+}
+
+
+.avatar{
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 150%;
+    line-height: 0%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.avatar img{
+    height: 13%;
+    width: 13%;
+}
+
+#bio{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+.container-title{
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 140%    
+}
+.links a{
+    float: right;
+    font-size: 15px;
+    color: #FFD993;
+    margin-right:5px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    text-decoration: none !important ; 
+}
+.attribs{
+    font-size: 13px;
+    font-style: italic;
+    margin-left: 53px;
+}
+.title-links a{
+    color: #FFD993;
+    text-decoration: underline;
+}
+.title-links a:active, .title-links a:hover{
+    color: #f5b43d;
+}
+
+.sub-container{
+    width: 90%;
+    max-width: 800px;
+    max-height: 300px;
+    margin: 0 auto;
+    background-color: rgba(255, 217, 147, 0.11);
+    border: 3px solid;
+    margin-bottom: 3px;
+    padding-left: 3%;
 }
