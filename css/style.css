@@ -59,6 +59,7 @@ body{
 
 a{
     text-decoration: none;
+    color: #FFD993;
 }
 
 a :hover, a:active{
@@ -227,3 +228,20 @@ a :hover, a:active{
     margin-bottom: 3px;
     padding-left: 3%;
 }
+.emphasized{
+    color: #f5b43d;
+    font-style: italic;
+}
+.emphasized a{
+    color:#f5b43d;
+}
+.empasized a:active, .emphasized a:hover{
+    text-decoration: underline;
+}
+#ask{
+    display:none;
+    width: 80%;
+    height: 100px;
+}
+
+
