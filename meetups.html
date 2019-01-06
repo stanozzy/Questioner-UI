@@ -27,19 +27,16 @@
             Time: 9:00 a.m to 1:00 p.m<br>
                 Organized by <span class="emphasized"> <a href="">user 1234</a></span> <br>
                 Based on the <span class="emphasized"><a href="questions.html"> top questions</a> </span>, this meetup will focus on <span class="emphasized"> improving security in Quahog. </span> <br> 
-                All are welcome. You a invited to <span class="emphasized"><a href="ask.html>">post your question</a>  </span> for this meetup. <br>
+                All are welcome.  <br>
             <input type="radio" name="attend" value="yes" >I will attend<br>
             <input type="radio" name="attend" value="no" >I will not be able to attend <br>
-                <button id="show">ask your question</button> </p>
+                <button id="show" class="show">ask your question</button> </p>
             
-            <div id ="ask">
-                <textarea class="txtarea" placeholder="Please type your question" ></textarea>
+            <div id ="ask" class="ask" >
+                <textarea class="txtarea" placeholder="Please type your question" name="questions" ></textarea>
+                <button type="submit" class="show">submit</button>  
             </div>
-          <script type="text/javascript">
-            document.getElementById("show").onclick = function(){
-    document.getElementById("ask").style.display = "block";
-}
-        </script>
+
         </div>
 
         <div class="sub-container">
@@ -49,10 +46,17 @@
                 Organized by <span class="emphasized"><a href="">  user 1234</a> </span><br>
                 Based on the <span class="emphasized"><a href="questions.html"> top questions</a> 
                 </span>, the main theme of this meetup will be <span class="emphasized"> empowerment of our youth.</span> <br> 
-                All are welcome. You a invited to <span class="emphasized"><a href="ask.html>">post your question</a>  </span> for this meetup.
-                <br>
+                All are welcome.
+            <br>
             <input type="radio" name="attend" value="yes" >I will attend<br>
-            <input type="radio" name="attend" value="no" >I will not be able to attend</p>
+            <input type="radio" name="attend" value="no" >I will not be able to attend
+            <br>
+            <button id="show1" class="show">ask your question</button>    
+            </p>
+            <div id ="ask1" class="ask" >
+                <textarea class="txtarea" placeholder="Please type your question" ></textarea>
+                <button type="submit" class="show">submit</button>
+            </div>            
         </div>    
         <div class="sub-container">
             <p class="container-title">Meetup at Quahog Civic Center</p>
@@ -62,10 +66,28 @@
                 The highlight of this meetup will be  <span class="emphasized"> investing in Bitcoins. </span> 
                 Many people are keen to learn more about Bitcoins and whether it's wise to invest in them. Hopefully your questions will be answered during this meetup.<br>
                 View the <span class="emphasized"><a href="questions">top questions</a> </span><br>
-                All are welcome. You a invited to <span class="emphasized"><a href="ask.html>">post your question</a>  </span> for this meetup.<br>
+                All are welcome. <br>
             <input type="radio" name="attend" value="yes" >I will attend<br>
-            <input type="radio" name="attend" value="no" >I will not be able to attend</p>
+            <input type="radio" name="attend" value="no" >I will not be able to attend
+            <br>
+            <button id="show2" class="show">ask your question</button>    
+            </p>
+            <div id ="ask2" class="ask" >
+                <textarea class="txtarea" placeholder="Please type your question" ></textarea>
+                <button type="submit" class="show">submit</button>
+            </div> 
         </div> 
+          <script type="text/javascript">
+            document.getElementById("show").onclick = function(){
+                document.getElementById("ask").style.display = "block";
+            }
+            document.getElementById("show1").onclick = function(){
+                document.getElementById("ask1").style.display = "block";
+            }
+            document.getElementById("show2").onclick = function(){
+                document.getElementById("ask2").style.display = "block";
+            }            
+        </script>        
 
     </body>
 </html>
