@@ -221,7 +221,6 @@ a :hover, a:active{
 .sub-container{
     width: 90%;
     max-width: 800px;
-    max-height: 300px;
     margin: 0 auto;
     background-color: rgba(255, 217, 147, 0.11);
     border: 3px solid;
@@ -238,10 +237,23 @@ a :hover, a:active{
 .empasized a:active, .emphasized a:hover{
     text-decoration: underline;
 }
-#ask{
-    display:none;
+
+.ask{
+    display: none;
+}
+.txtarea{
     width: 80%;
     height: 100px;
 }
-
+.show{
+    font-family: 'Ubuntu Condensed', sans-serif; 
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: 0;
+    background: #FFD993;
+    color: brown;
+    width: 20%;
+    border: 0;
+    cursor: pointer;
+}
 
