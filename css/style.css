@@ -257,3 +257,9 @@ a :hover, a:active{
     cursor: pointer;
 }
 
+.thumbs{
+    height: 40px;
+    width: 40px;
+    background-color: antiquewhite
+}
+
