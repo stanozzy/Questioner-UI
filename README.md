@@ -1,7 +1,6 @@
-# questioner-ui
-UI for Questioner, a platform for crowdsourcing questions for a meetup. 
-questioner-ui is a static site with no functionality. The project is managed with a Pivotal tracker board. [View the board here](https://www.pivotaltracker.com/n/projects/2235257)
-
+# questioner-API
+This is the API for Questioner, a platform for crowdsourcing questions for a meetup. 
+The project is managed with a Pivotal tracker board. [View the board here](https://www.pivotaltracker.com/n/projects/2235257)
 # Required Features
 -----------------------
 1. Admin can create meetups.
