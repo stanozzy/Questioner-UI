@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Sign in to Questioner</title>
+        <title>Create a Questioner account</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Righteous|Ubuntu+Condensed|ZCOOL+XiaoWei" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="/static/css/style.css" >
 
     </head>
     <body>
@@ -17,15 +17,17 @@
         <hr>   
         <div class="form-container">
             <div class="title">
-                <p>Sign in to <span class="lg">Questioner</span></p>
+                <p>Create a <span class="lg">Questioner</span> account</p>
             </div>            
             <div class="form">
                 <form class="login-form">
-                    <input type="text" placeholder="Enter your user name" name="uname" />
-                    <input type="password" placeholder="Enter your password" name="pwd" />
+                    <input type="text" placeholder="Enter your preferred user name" name="uname" />
+                    <input type="password" placeholder="Create a password" name="pwd" />                
+                    <input type="password" placeholder="Confirm password" name="conf" />
+                    <input type="text" placeholder="Enter your e-mail address" name="email" />
                     <input type="submit" value="submit" name = "login" id = "btn"/>
                     <a href="index.html"><button type="button">cancel </button> </a>
-                    <p class="msg">Not registered? &nbsp;&nbsp;&nbsp;<a href="sign-up.html">Sign Up</a> </p>                    
+                    <p class="msg">Have an account? &nbsp;&nbsp;&nbsp;<a href="sign-in.html">Sign in</a> </p>                    
                 </form>
             </div>
         </div>
