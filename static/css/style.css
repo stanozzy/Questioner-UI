@@ -11,7 +11,7 @@ hr{
 }
 
 body{
-    background: url(../images/bkg.jpg) black;
+    background: url(/static/images/bkg.jpg) black;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
